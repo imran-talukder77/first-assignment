@@ -1,11 +1,38 @@
-h1{
-    color: white;
-    background-color: black;
-    padding: 20px;
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-p{
-    background-color: aqua;
-    border: 5px solid black;
-    padding: 20px;
+.common-btn{
+    border: none;
+    padding: 16px 30px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-ul li{
+    margin: 0px 14px;
+    
+}
+.nav-ul a{
+   text-decoration: none;
+   color: #575757;
+   font-size: 20px;
 }
