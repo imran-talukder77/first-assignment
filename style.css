@@ -120,6 +120,7 @@ header{
 .pricing-section{
     max-width: 750px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 #pricing-heading{
@@ -214,7 +215,8 @@ hr{
 /* ai section css */
 
 .career-section {
-    padding: 100px 20px;
+    /* padding: 100px 20px; */
+    padding: 40px 20px;
     background: linear-gradient(
         135deg,
         #f5f7ff,
