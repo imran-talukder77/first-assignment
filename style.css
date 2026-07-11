@@ -17,7 +17,7 @@
     font-size: 15px;
 }
 
-nav, header, .speaker-section{
+nav, header, .speaker-section, .footer-container{
     max-width: 1200px;
     margin: auto;
 }
@@ -120,7 +120,6 @@ header{
 .pricing-section{
     max-width: 750px;
     margin: auto;
-    margin-bottom: 500px;
 }
 
 #pricing-heading{
@@ -188,6 +187,7 @@ hr{
     background-color: white;
     border: 1px solid #2563EB;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .black-div{
@@ -209,4 +209,51 @@ hr{
 #pro-btn{
     background-color: #2563EB;
     color: #ffffff;
+}
+
+/* footer section */
+footer{
+    background-color: #0D1B2A;
+    padding: 20px 60px;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+.footer-top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-link{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-top-container a{
+    color: #1D4ED8;
+}
+
+.footer-hr{
+    margin: 15px 0;
+    border: none;
+    height: 1px;
+    background-color: #444;
+}
+
+.footer-last-container a, p{
+    color: rgba(255, 255, 255, 0.403);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-last-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.last-container-child{
+    display: flex;
+    gap: 20px;
 }
